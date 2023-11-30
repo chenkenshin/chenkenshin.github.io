@@ -65,7 +65,7 @@ sections:
         - title: Head of Quantum Computer Systems
           company: Quantum Laboratory, DAMO Academy, Alibaba Group USA
           company_url: 'https://damo.alibaba.com/'
-          company_logo: Alibaba
+          company_logo: Alibaba2
           location: Washington
           date_start: '2018-08-18'
           date_end: '2023-11-27'
@@ -77,11 +77,11 @@ sections:
         - title: Quantum Scientist
           company: Quantum Laboratory, DAMO Academy, Alibaba Group
           company_url: 'https://damo.alibaba.com/'
-          company_logo: Alibaba
+          company_logo: Alibaba2
           location: Hangzhou, P.R.China
           date_start: '2017-09-10'
           date_end: '2018-08-18'
-          description: Taught electronic engineering and researched semiconductor physics.
+          description: Develop essential technical capabilities pivotal for realizing the full potential of quantum computing.
         - title: Hartree Fellow
           company: The Joint Center for Quantum Information and Computer Science, University of Maryland
           company_url: 'https://quics.umd.edu/'
