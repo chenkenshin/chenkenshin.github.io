@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 陈建鑫
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Jianxin Chen
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Jianxin
+last_name: Chen
 
 # Status emoji
 status:
@@ -17,34 +17,34 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Head of Quantum Computer Systems
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: DAMO Academy, Alibaba Group USA
+    url: https://damo.alibaba.com
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Quantum Computer Architecture
+  - Fault-tolerant Quantum Computing
+  - Quantum Hardware-software Co-Design
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Computer Science
+      institution: Tsinghua University
+      year: 2010
+    - course: Master in Computer Science
+      institution: Tsinghua University
+      year: 2010
+    - course: BEng in Computer Science
+      institution: Tsinghua University
+      year: 2005
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -96,7 +96,7 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/chenkenshin
     label: Follow me on Twitter
     display:
       header: true
@@ -105,7 +105,7 @@ social:
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/chenkenshin
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/
@@ -120,5 +120,7 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Jianxin Chen is a Quantum Scientist at Alibaba Group's global research institute, DAMO Academy. He holds the position of Head of Quantum Computer Systems within the Quantum Laboratory, a division of DAMO Academy. Jianxin earned both his Bachelor's and Ph.D. degrees in computer science from Tsinghua University. Prior to joining Alibaba, he served as a Hartree fellow at the Joint Center for Quantum Information and Computer Science at the University of Maryland.
+
+Jianxin's primary research focus centers on the development of a robust and fault-tolerant quantum computer system. To date, he has authored and published over 70 research papers in top journals such as PRL, PRX Quantum, Nature Computational Science, as well as top conferences such as Quantum Information Processing and ASPLOS. Jianxin is an IEEE senior member and he has actively contributed to the program committees of prestigious conferences such as QIP (Quantum Information Processing), TQC (The Theory of Quantum Computation, Communication, and Cryptography), and IEEE Quantum Week.
 {style="text-align: justify;"}
