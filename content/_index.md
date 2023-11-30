@@ -62,27 +62,43 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Head of Quantum Computer Systems
+          company: Quantum Laboratory, DAMO Academy, Alibaba Group USA
           company_url: ''
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+          location: Washington
+          date_start: '2018-08'
+          date_end: '2023-11'
           description: |2-
               Responsibilities include:
 
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+        - title: Quantum Scientist
+          company: Quantum Laboratory, DAMO Academy, Alibaba Group
           company_url: ''
           company_logo: org-x
           location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
+          date_start: '2017-09'
+          date_end: '2018-08'
           description: Taught electronic engineering and researched semiconductor physics.
+        - title: Hartree Fellow
+          company: University of Maryland
+          company_url: ''
+          company_logo: org-x
+          location: Maryland
+          date_start: '2014-10'
+          date_end: '2017-08'
+          description: Conduct fundamental research in quantum information science.
+        - title: Postdoctoral Fellow
+          company: Joint Appointment at the Institute for Quantum Computing, University of Waterloo and the University of Guelph
+          company_url: ''
+          company_logo: org-x
+          location: Ontario, Canada
+          date_start: '2010-10'
+          date_end: '2014-08'
+          description: Conduct fundamental research in quantum information science.
     design:
       columns: '2'
   - block: accomplishments
