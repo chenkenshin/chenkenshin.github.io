@@ -84,9 +84,9 @@ sections:
           date_end: '2018-08'
           description: Taught electronic engineering and researched semiconductor physics.
         - title: Hartree Fellow
-          company: University of Maryland
+          company: The Joint Center for Quantum Information and Computer Science, University of Maryland
           company_url: ''
-          company_logo: org-x
+          company_logo: university-of-maryland
           location: Maryland
           date_start: '2014-10'
           date_end: '2017-08'
@@ -94,7 +94,7 @@ sections:
         - title: Postdoctoral Fellow
           company: Joint Appointment at the Institute for Quantum Computing, University of Waterloo and the University of Guelph
           company_url: ''
-          company_logo: org-x
+          company_logo: university-of-waterloo-institute-for-quantum-computing-iqc-vector-logo
           location: Ontario, Canada
           date_start: '2010-10'
           date_end: '2014-08'
