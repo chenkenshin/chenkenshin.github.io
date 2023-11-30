@@ -67,8 +67,8 @@ sections:
           company_url: ''
           company_logo: org-gc
           location: Washington
-          date_start: '2018-08'
-          date_end: '2023-11'
+          date_start: '2018-08-18'
+          date_end: '2023-11-27'
           description: |2-
               Responsibilities include:
               * Analysing
@@ -79,24 +79,24 @@ sections:
           company_url: ''
           company_logo: org-x
           location: California
-          date_start: '2017-09'
-          date_end: '2018-08'
+          date_start: '2017-09-10'
+          date_end: '2018-08-18'
           description: Taught electronic engineering and researched semiconductor physics.
         - title: Hartree Fellow
           company: The Joint Center for Quantum Information and Computer Science, University of Maryland
           company_url: ''
           company_logo: university-of-maryland
           location: Maryland
-          date_start: '2014-10'
-          date_end: '2017-08'
+          date_start: '2014-10-01'
+          date_end: '2017-08-26'
           description: Conduct fundamental research in quantum information science.
         - title: Postdoctoral Fellow
           company: Joint Appointment at the Institute for Quantum Computing, University of Waterloo and the University of Guelph
           company_url: ''
           company_logo: university-of-waterloo-institute-for-quantum-computing-iqc-vector-logo
           location: Ontario, Canada
-          date_start: '2010-10'
-          date_end: '2014-08'
+          date_start: '2010-10-01'
+          date_end: '2014-08-01'
           description: Conduct fundamental research in quantum information science.
     design:
       columns: '2'
