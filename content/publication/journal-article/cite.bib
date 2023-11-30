@@ -6,3 +6,556 @@
   volume  = 1,
   number  = 1
 }
+
+
+@article{ZZC+23,
+author = {Zhang, Fang and Zhu, Xing and Chao, Rui and Huang, Cupjin and Kong, Linghang and Chen, Guoyang and Ding, Dawei and Feng, Haishan and Gao, Yihuai and Ni, Xiaotong and Qiu, Liwei and Wei, Zhe and Yang, Yueming and Zhao, Yang and Shi, Yaoyun and Zhang, Weifeng and Zhou, Peng and Chen, Jianxin},
+title = {A Classical Architecture For Digital Quantum Computers},
+year = {2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3626199},
+doi = {10.1145/3626199},
+abstract = {Scaling bottlenecks the making of digital quantum computers, posing challenges from both the quantum and the classical components. We present a classical architecture to cope with a comprehensive list of the latter challenges all at once, and implement it fully in an end-to-end system by integrating a multi-core RISC-V CPU with our in-house control electronics. Our architecture enables scalable, high-precision control of large quantum processors and accommodates evolving requirements of quantum hardware. A central feature is a microarchitecture executing quantum operations in parallel on arbitrary predefined qubit groups. Another key feature is a reconfigurable quantum instruction set that supports easy qubit re-grouping and instructions extensions. As a demonstration, we implement the surface code quantum computing workflow. Our design, for the first time, reduces instruction issuing and transmission costs to constants, which do not scale with the number of qubits, without adding any overheads in decoding or dispatching. Our system uses a dedicated general-purpose CPU for both qubit control and classical computation, including syndrome decoding. Implementing recent theoretical proposals as decoding firmware that parallelizes general inner decoders, we can achieve unprecedented decoding capabilities of up to distances 47 and 67 with the currently available systems-on-chips for physical error rate p = 0.001 and p = 0.0001, respectively, all in just 1 µs.},
+note = {Just Accepted},
+journal = {ACM Transactions on Quantum Computing},
+month = {sep},
+keywords = {parallel decoding, quantum computer architecture, fault-tolerant quantum computing}
+}
+
+@article{CDH+23,
+  title = {Compiling arbitrary single-qubit gates via the phase shifts of microwave pulses},
+  author = {Chen, Jianxin and Ding, Dawei and Huang, Cupjin and Ye, Qi},
+  journal = {Phys. Rev. Res.},
+  volume = {5},
+  issue = {2},
+  pages = {L022031},
+  numpages = {6},
+  year = {2023},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevResearch.5.L022031},
+  url = {https://link.aps.org/doi/10.1103/PhysRevResearch.5.L022031}
+}
+
+@article{HWW+23,
+  title = {Quantum Instruction Set Design for Performance},
+  author = {Huang, Cupjin and Wang, Tenghui and Wu, Feng and Ding, Dawei and Ye, Qi and Kong, Linghang and Zhang, Fang and Ni, Xiaotong and Song, Zhijun and Shi, Yaoyun and Zhao, Hui-Hai and Deng, Chunqing and Chen, Jianxin},
+  journal = {Phys. Rev. Lett.},
+  volume = {130},
+  issue = {7},
+  pages = {070601},
+  numpages = {7},
+  year = {2023},
+  month = {Feb},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.130.070601},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.130.070601}
+}
+
+@misc{TZC+23,
+  title = {Scalable surface code decoders with parallelization in time},
+  author = {Tan, Xinyu and Zhang, Fang and Chao, Rui and Shi, Yaoyun and Chen, Jianxin},
+  journal = {Phys. Rev. X Quantum},
+  publisher = {American Physical Society},
+  note = { to appear in }
+}
+
+@article{NZW+22,
+  title={Integrating quantum processor device and control optimization in a gradient-based framework},
+  author={Ni, Xiaotong and Zhao, Hui-Hai and Wang, Lei and Wu, Feng and Chen, Jianxin},
+  journal={npj Quantum Information},
+  volume={8},
+  number={1},
+  pages={106},
+  year={2022},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{CDH22,
+  title = {Randomized Benchmarking beyond Groups},
+  author = {Chen, Jianxin and Ding, Dawei and Huang, Cupjin},
+  journal = {PRX Quantum},
+  volume = {3},
+  issue = {3},
+  pages = {030320},
+  numpages = {24},
+  year = {2022},
+  month = {Aug},
+  publisher = {American Physical Society},
+  doi = {10.1103/PRXQuantum.3.030320},
+  url = {https://link.aps.org/doi/10.1103/PRXQuantum.3.030320}
+}
+
+@article{CDH+23_1,
+  title = {Linear cross-entropy benchmarking with Clifford circuits},
+  author = {Chen, Jianxin and Ding, Dawei and Huang, Cupjin and Kong, Linghang},
+  journal = {Phys. Rev. A},
+  volume = {108},
+  issue = {5},
+  pages = {052613},
+  numpages = {18},
+  year = {2023},
+  month = {Nov},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.108.052613},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.108.052613}
+}
+
+@article{BDD+22,
+  title = {Fluxonium: An Alternative Qubit Platform for High-Fidelity Operations},
+  author = {Bao, Feng and Deng, Hao and Ding, Dawei and Gao, Ran and Gao, Xun and Huang, Cupjin and Jiang, Xun and Ku, Hsiang-Sheng and Li, Zhisheng and Ma, Xizheng and Ni, Xiaotong and Qin, Jin and Song, Zhijun and Sun, Hantao and Tang, Chengchun and Wang, Tenghui and Wu, Feng and Xia, Tian and Yu, Wenlong and Zhang, Fang and Zhang, Gengyan and Zhang, Xiaohang and Zhou, Jingwei and Zhu, Xing and Shi, Yaoyun and Chen, Jianxin and Zhao, Hui-Hai and Deng, Chunqing},
+  journal = {Phys. Rev. Lett.},
+  volume = {129},
+  issue = {1},
+  pages = {010502},
+  numpages = {6},
+  year = {2022},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.129.010502},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.129.010502}
+}
+
+@article{HZN+21,
+  title={Efficient parallelization of tensor network contraction for simulating quantum computation},
+  author={Huang, Cupjin and Zhang, Fang and Newman, Michael and Ni, Xiaotong and Ding, Dawei and Cai, Junjie and Gao, Xun and Wang, Tenghui and Wu, Feng and Zhang, Gengyan and others},
+  journal={Nature Computational Science},
+  volume={1},
+  number={9},
+  pages={578--587},
+  year={2021},
+  publisher={Nature Publishing Group US New York}
+}
+
+@article{CHL+19,
+title = {Local Density Matrices of Many-Body States in the Constant Weight Subspaces},
+author = {Jianxin Chen and Muxin Han and Youning Li and Bei Zeng and Jie Zhou},
+journal = {Reports on Mathematical Physics},
+volume = {83},
+number = {3},
+pages = {273-292},
+year = {2019},
+issn = {0034-4877},
+doi = {https://doi.org/10.1016/S0034-4877(19)30049-7},
+url = {https://www.sciencedirect.com/science/article/pii/S0034487719300497}
+}
+
+@article{CJK+19,
+doi = {10.1088/1751-8121/ab15e3},
+url = {https://dx.doi.org/10.1088/1751-8121/ab15e3},
+year = {2019},
+month = {apr},
+publisher = {IOP Publishing},
+volume = {52},
+number = {21},
+pages = {215302},
+author = {Jianxin Chen and Zhengfeng Ji and David W Kribs and Bei Zeng and Fang Zhang},
+title = {Minimum entangling power is close to its maximum},
+journal = {Journal of Physics A: Mathematical and Theoretical}
+}
+
+@article{HCL+18,
+  title={Quantum state tomography for generic pure states},
+  author={Huang, ShiLin and Chen, JianXin and Li, YouNing and Zeng, Bei},
+  journal={Science China Physics, Mechanics \& Astronomy},
+  volume={61},
+  pages={1--7},
+  year={2018},
+  publisher={Springer}
+}
+
+@article{LHL+18,
+  title={Separability-entanglement classifier via machine learning},
+  author={Lu, Sirui and Huang, Shilin and Li, Keren and Li, Jun and Chen, Jianxin and Lu, Dawei and Ji, Zhengfeng and Shen, Yi and Zhou, Duanlu and Zeng, Bei},
+  journal={Physical Review A},
+  volume={98},
+  number={1},
+  pages={012315},
+  year={2018},
+  publisher={APS}
+}
+
+
+
+@article{CCH18,
+author = {Chen, Jianxin  and Childs, Andrew M.  and Hung, Shih-Han },
+title = {Quantum algorithm for multivariate polynomial interpolation},
+journal = {Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences},
+volume = {474},
+number = {2209},
+pages = {20170480},
+year = {2018},
+doi = {10.1098/rspa.2017.0480},
+URL = {https://royalsocietypublishing.org/doi/abs/10.1098/rspa.2017.0480},
+eprint = {https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.2017.0480}
+}
+
+@article{XLK+17,
+  title = {Quantum State Tomography via Reduced Density Matrices},
+  author = {Xin, Tao and Lu, Dawei and Klassen, Joel and Yu, Nengkun and Ji, Zhengfeng and Chen, Jianxin and Ma, Xian and Long, Guilu and Zeng, Bei and Laflamme, Raymond},
+  journal = {Phys. Rev. Lett.},
+  volume = {118},
+  issue = {2},
+  pages = {020401},
+  numpages = {5},
+  year = {2017},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.118.020401},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.118.020401}
+}
+
+@article{CGJ+17,
+  title={Joint product numerical range and geometry of reduced density matrices},
+  author={Chen, Jianxin and Guo, Cheng and Ji, Zhengfeng and Poon, Yiu-Tung and Yu, Nengkun and Zeng, Bei and Zhou, Jie},
+  journal={Science China Physics, Mechanics \& Astronomy},
+  volume={60},
+  pages={1--9},
+  year={2017},
+  publisher={Springer}
+}
+
+@article{CGJ+16,
+  title = {Quantifying the coherence of pure quantum states},
+  author = {Chen, Jianxin and Grogan, Shane and Johnston, Nathaniel and Li, Chi-Kwong and Plosker, Sarah},
+  journal = {Phys. Rev. A},
+  volume = {94},
+  issue = {4},
+  pages = {042313},
+  numpages = {10},
+  year = {2016},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.94.042313},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.94.042313}
+}
+
+@article{LXY+16,
+  title = {Tomography is Necessary for Universal Entanglement Detection with Single-Copy Observables},
+  author = {Lu, Dawei and Xin, Tao and Yu, Nengkun and Ji, Zhengfeng and Chen, Jianxin and Long, Guilu and Baugh, Jonathan and Peng, Xinhua and Zeng, Bei and Laflamme, Raymond},
+  journal = {Phys. Rev. Lett.},
+  volume = {116},
+  issue = {23},
+  pages = {230501},
+  numpages = {5},
+  year = {2016},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.116.230501},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.116.230501}
+}
+
+@article{MJZ+16,
+  title = {Pure-state tomography with the expectation value of Pauli operators},
+  author = {Ma, Xian and Jackson, Tyler and Zhou, Hui and Chen, Jianxin and Lu, Dawei and Mazurek, Michael D. and Fisher, Kent A. G. and Peng, Xinhua and Kribs, David and Resch, Kevin J. and Ji, Zhengfeng and Zeng, Bei and Laflamme, Raymond},
+  journal = {Phys. Rev. A},
+  volume = {93},
+  issue = {3},
+  pages = {032140},
+  numpages = {13},
+  year = {2016},
+  month = {Mar},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.93.032140},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.93.032140}
+}
+
+@article{CJY+16,
+  title = {Detecting consistency of overlapping quantum marginals by separability},
+  author = {Chen, Jianxin and Ji, Zhengfeng and Yu, Nengkun and Zeng, Bei},
+  journal = {Phys. Rev. A},
+  volume = {93},
+  issue = {3},
+  pages = {032105},
+  numpages = {6},
+  year = {2016},
+  month = {Mar},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.93.032105},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.93.032105}
+}
+
+@article{CJL+15,
+doi = {10.1088/1367-2630/17/8/083019},
+url = {https://dx.doi.org/10.1088/1367-2630/17/8/083019},
+year = {2015},
+month = {aug},
+publisher = {IOP Publishing},
+volume = {17},
+number = {8},
+pages = {083019},
+author = {Jianxin Chen and Zhengfeng Ji and Chi-Kwong Li and Yiu-Tung Poon and Yi Shen and Nengkun Yu and Bei Zeng and Duanlu Zhou},
+title = {Discontinuity of maximum entropy inference and quantum phase transitions},
+journal = {New Journal of Physics}
+}
+
+@article{CJ15,
+  title={The minimum size of unextendible product bases in the bipartite case (and some multipartite cases)},
+  author={Chen, Jianxin and Johnston, Nathaniel},
+  journal={Communications in Mathematical Physics},
+  volume={333},
+  pages={351--365},
+  year={2015},
+  publisher={Springer}
+}
+
+@article{CC+15,
+  title={Universal subspaces for local unitary groups of fermionic systems},
+  author={Chen, Lin and Chen, Jianxin and {\DJ}okovi{\'c}, Dragomir {\v{Z}} and Zeng, Bei},
+  journal={Communications in Mathematical Physics},
+  volume={333},
+  pages={541--563},
+  year={2015},
+  publisher={Springer}
+}
+
+@article{CJK+14,
+  title = {Symmetric extension of two-qubit states},
+  author = {Chen, Jianxin and Ji, Zhengfeng and Kribs, David and L\"utkenhaus, Norbert and Zeng, Bei},
+  journal = {Phys. Rev. A},
+  volume = {90},
+  issue = {3},
+  pages = {032318},
+  numpages = {10},
+  year = {2014},
+  month = {Sep},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.90.032318},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.90.032318}
+}
+
+@article{CCZ14,
+    author = {Chen, Jianxin and Chen, Lin and Zeng, Bei},
+    title = "{Unextendible product basis for fermionic systems}",
+    journal = {Journal of Mathematical Physics},
+    volume = {55},
+    number = {8},
+    pages = {082207},
+    year = {2014},
+    month = {08},
+    issn = {0022-2488},
+    doi = {10.1063/1.4893358},
+    url = {https://doi.org/10.1063/1.4893358},
+    eprint = {https://pubs.aip.org/aip/jmp/article-pdf/doi/10.1063/1.4893358/15618270/082207\_1\_online.pdf},
+}
+
+
+@article{CDJ+13,
+  title = {Uniqueness of quantum states compatible with given measurement results},
+  author = {Chen, Jianxin and Dawkins, Hillary and Ji, Zhengfeng and Johnston, Nathaniel and Kribs, David and Shultz, Frederic and Zeng, Bei},
+  journal = {Phys. Rev. A},
+  volume = {88},
+  issue = {1},
+  pages = {012109},
+  numpages = {12},
+  year = {2013},
+  month = {Jul},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.88.012109},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.88.012109}
+}
+
+@article{CJK+12,
+    author = {Chen, Jianxin and Ji, Zhengfeng and Kribs, David and Wei, Zhaohui and Zeng, Bei},
+    title = "{Ground-state spaces of frustration-free Hamiltonians}",
+    journal = {Journal of Mathematical Physics},
+    volume = {53},
+    number = {10},
+    pages = {102201},
+    year = {2012},
+    month = {09},
+    abstract = "{We study the ground-state space properties for frustration-free Hamiltonians. We introduce a concept of “reduced spaces” to characterize local structures of ground-state spaces. For a many-body system, we characterize mathematical structures for the set Θk of all the k-particle reduced spaces, which with a binary operation called join forms a semilattice that can be interpreted as an abstract convex structure. The smallest nonzero elements in Θk, called atoms, are analogs of extreme points. We study the properties of atoms in Θk and discuss its relationship with ground states of k-local frustration-free Hamiltonians. For spin-1/2 systems, we show that all the atoms in Θ2 are unique ground states of some 2-local frustration-free Hamiltonians. Moreover, we show that the elements in Θk may not be the join of atoms, indicating a richer structure for Θk beyond the convex structure. Our study of Θk deepens the understanding of ground-state space properties for frustration-free Hamiltonians, from the new perspective of reduced spaces.}",
+    issn = {0022-2488},
+    doi = {10.1063/1.4748527},
+    url = {https://doi.org/10.1063/1.4748527},
+    eprint = {https://pubs.aip.org/aip/jmp/article-pdf/doi/10.1063/1.4748527/15598470/102201\_1\_online.pdf},
+}
+
+@article{CJZ+12,
+  title = {From ground states to local Hamiltonians},
+  author = {Chen, Jianxin and Ji, Zhengfeng and Zeng, Bei and Zhou, D. L.},
+  journal = {Phys. Rev. A},
+  volume = {86},
+  issue = {2},
+  pages = {022339},
+  numpages = {10},
+  year = {2012},
+  month = {Aug},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.86.022339},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.86.022339}
+}
+
+@article{CJR+12,
+    author = {Chen, Jianxin and Ji, Zhengfeng and Ruskai, Mary Beth and Zeng, Bei and Zhou, Duan-Lu},
+    title = "{Comment on some results of Erdahl and the convex structure of reduced density matrices}",
+    journal = {Journal of Mathematical Physics},
+    volume = {53},
+    number = {7},
+    pages = {072203},
+    year = {2012},
+    month = {07},
+    abstract = "{In [J. Math. Phys. 13, 1608–1621 (1972)], Erdahl10.1063/1.1665885 considered the convex structure of the set of N-representable 2-body reduced density matrices in the case of fermions. Some of these results have a straightforward extension to the m-body setting and to the more general quantum marginal problem. We describe these extensions, but cannot resolve a problem in the proof of Erdahl's claim that every extreme point is exposed in finite dimensions. Nevertheless, we can show that when 2m ⩾ N every extreme point of the set of N-representable m-body reduced density matrices has a unique pre-image in both the symmetric and anti-symmetric setting. Moreover, this extends to the quantum marginal setting for a pair of complementary m-body and (N − m)-body reduced density matrices.}",
+    issn = {0022-2488},
+    doi = {10.1063/1.4736842},
+    url = {https://doi.org/10.1063/1.4736842},
+    eprint = {https://pubs.aip.org/aip/jmp/article-pdf/doi/10.1063/1.4736842/13853711/072203\_1\_online.pdf},
+}
+
+@article{CJW+12,
+  title = {Correlations in excited states of local Hamiltonians},
+  author = {Chen, Jianxin and Ji, Zhengfeng and Wei, Zhaohui and Zeng, Bei},
+  journal = {Phys. Rev. A},
+  volume = {85},
+  issue = {4},
+  pages = {040303},
+  numpages = {4},
+  year = {2012},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.85.040303},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.85.040303}
+}
+
+
+@article{CJK+12_1,
+    author = {Chen, Jianxin and Ji, Zhengfeng and Klyachko, Alexander and Kribs, David W. and Zeng, Bei},
+    title = "{Rank reduction for the local consistency problem}",
+    journal = {Journal of Mathematical Physics},
+    volume = {53},
+    number = {2},
+    pages = {022202},
+    year = {2012},
+    month = {02},
+    abstract = "{We address the problem of how simple a solution can be for a given quantum local consistency instance. More specifically, we investigate how small the rank of the global density operator can be if the local constraints are known to be compatible. We prove that any compatible local density operators can be satisfied by a low rank global density operator. Then we study both fermionic and bosonic versions of the N-representability problem as applications. After applying the channel-state duality, we prove that any compatible local channels can be obtained through a global quantum channel with small Kraus rank.}",
+    issn = {0022-2488},
+    doi = {10.1063/1.3685644},
+    url = {https://doi.org/10.1063/1.3685644},
+    eprint = {https://pubs.aip.org/aip/jmp/article-pdf/doi/10.1063/1.3685644/14009678/022202\_1\_online.pdf},
+}
+
+
+@article{LCD12,
+author = {Lu, Cheng and Chen, Jianxin and Duan, Runyao},
+title = {Some Bounds on the Minimum Number of Queries Required for Quantum Channel Perfect Discrimination},
+year = {2012},
+issue_date = {January 2012},
+publisher = {Rinton Press, Incorporated},
+address = {Paramus, NJ},
+volume = {12},
+number = {1–2},
+issn = {1533-7146},
+abstract = {We prove a lower bound on the q-maximal fidelities between two quantum channels E0 and E1 and an upper bound on the q-maximal fidelities between a quantum channel E and an identity I. Then we apply these two bounds to provide a simple sufficient and necessary condition for sequential perfect distinguishability between E and I and provide both a lower bound and an upper bound on the minimum number of queries required to sequentially perfectly discriminating E and I. Interestingly, in the 2-dimensional case, both bounds coincide. Based on the optimal perfect discrimination protocol presented in [20], we can further generalize the lower bound and upper bound to the minimum number of queries to perfectly discriminating E and I over all possible discrimination schemes. Finally the two lower bounds are shown remain working for perfectly discriminating general two quantum channels E0 and E1 in sequential scheme and over all possible discrimination schemes respectively.},
+journal = {Quantum Info. Comput.},
+month = {jan},
+pages = {138–148},
+numpages = {11},
+keywords = {q-maximal fidelity, maximal fidelity, quantum channels, minimum number of queries, perfect distinguishability}
+}
+
+@article{CCH+11,
+  title = {Entanglement can Completely Defeat Quantum Noise},
+  author = {Chen, Jianxin and Cubitt, Toby S. and Harrow, Aram W. and Smith, Graeme},
+  journal = {Phys. Rev. Lett.},
+  volume = {107},
+  issue = {25},
+  pages = {250504},
+  numpages = {4},
+  year = {2011},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.107.250504},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.107.250504}
+}
+
+@article{CCD+11,
+  title = {No-go theorem for one-way quantum computing on naturally occurring two-level systems},
+  author = {Chen, Jianxin and Chen, Xie and Duan, Runyao and Ji, Zhengfeng and Zeng, Bei},
+  journal = {Phys. Rev. A},
+  volume = {83},
+  issue = {5},
+  pages = {050301},
+  numpages = {4},
+  year = {2011},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.83.050301},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.83.050301}
+}
+
+@ARTICLE{CCH11,
+  author={Cubitt, Toby S. and Chen, Jianxin and Harrow, Aram W.},
+  journal={IEEE Transactions on Information Theory}, 
+  title={Superactivation of the Asymptotic Zero-Error Classical Capacity of a Quantum Channel}, 
+  year={2011},
+  volume={57},
+  number={12},
+  pages={8114-8126},
+  doi={10.1109/TIT.2011.2169109}
+}
+
+@article{JCW+10,
+author = {Ji, Zhengfeng and Chen, Jianxin and Wei, Zhaohui and Ying, Mingsheng},
+title = {The LU-LC Conjecture is False},
+year = {2010},
+issue_date = {January 2010},
+publisher = {Rinton Press, Incorporated},
+address = {Paramus, NJ},
+volume = {10},
+number = {1},
+issn = {1533-7146},
+abstract = {The LU-LC conjecture is an important open problem concerning the structure of entan-glement of states described in the stabilizer formalism. It states that two local unitaryequivalent stabilizer states are also local Clifford equivalent. If this conjecture were true,the local equivalence of stabilizer states would be extremely easy to characterize. Un-fortunately, however, based on the recent progress made by Gross and Van den Nest, wefind that the conjecture is false.},
+journal = {Quantum Info. Comput.},
+month = {jan},
+pages = {97–108},
+numpages = {12},
+keywords = {graph states, entanglement, stabilizer states, LU-LC conjecture}
+}
+
+@article{JY10,
+author = {Chen, Jianxin and Ying, Mingsheng},
+title = {Ancilla-assisted discrimination of quantum gates},
+year = {2010},
+issue_date = {January 2010},
+publisher = {Rinton Press, Incorporated},
+address = {Paramus, NJ},
+volume = {10},
+number = {2},
+issn = {1533-7146},
+journal = {Quantum Info. Comput.},
+month = {jan},
+pages = {160-177},
+numpages = {18}
+}
+
+@article{CDJ+08,
+    author = {Chen, Jianxin and Duan, Runyao and Ji, Zhengfeng and Ying, Mingsheng and Yu, Jun},
+    title = "{Existence of universal entangler}",
+    journal = {Journal of Mathematical Physics},
+    volume = {49},
+    number = {1},
+    pages = {012103},
+    year = {2008},
+    month = {01},
+    abstract = "{A gate is called an entangler if it transforms some (pure) product states to entangled states. A universal entangler is a gate which transforms all product states to entangled states. In practice, a universal entangler is a very powerful device for generating entanglements, and thus provides important physical resources for accomplishing many tasks in quantum computing and quantum information. This paper demonstrates that a universal entangler always exists except for a degenerated case. Nevertheless, the problem how to find a universal entangler remains open.}",
+    issn = {0022-2488},
+    doi = {10.1063/1.2829895},
+    url = {https://doi.org/10.1063/1.2829895},
+    eprint = {https://pubs.aip.org/aip/jmp/article-pdf/doi/10.1063/1.2829895/15928869/012103\_1\_online.pdf},
+}
+
+@article{YCF+07,
+title = {Commutativity of quantum weakest preconditions},
+journal = {Information Processing Letters},
+volume = {104},
+number = {4},
+pages = {152-158},
+year = {2007},
+issn = {0020-0190},
+doi = {https://doi.org/10.1016/j.ipl.2007.06.003},
+url = {https://www.sciencedirect.com/science/article/pii/S0020019007001573},
+author = {Mingsheng Ying and Jianxin Chen and Yuan Feng and Runyao Duan},
+keywords = {Formal semantics, Quantum program, Hermitian matrix, Super-operator, Weakest precondition}
+}
+
