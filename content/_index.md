@@ -64,36 +64,36 @@ sections:
       items:
         - title: Head of Quantum Computer Systems
           company: Quantum Laboratory, DAMO Academy, Alibaba Group USA
-          company_url: ''
-          company_logo: org-gc
+          company_url: 'https://damo.alibaba.com/'
+          company_logo: Alibaba
           location: Washington
           date_start: '2018-08-18'
           date_end: '2023-11-27'
           description: |2-
               Responsibilities include:
-              * Analysing
-              * Modelling
-              * Deploying
+              * Strategic Planning
+              * Technical Development
+              * Team Management and Development
         - title: Quantum Scientist
           company: Quantum Laboratory, DAMO Academy, Alibaba Group
-          company_url: ''
-          company_logo: org-x
-          location: California
+          company_url: 'https://damo.alibaba.com/'
+          company_logo: Alibaba
+          location: Hangzhou, P.R.China
           date_start: '2017-09-10'
           date_end: '2018-08-18'
           description: Taught electronic engineering and researched semiconductor physics.
         - title: Hartree Fellow
           company: The Joint Center for Quantum Information and Computer Science, University of Maryland
-          company_url: ''
-          company_logo: university-of-maryland
+          company_url: 'https://quics.umd.edu/'
+          company_logo: Maryland
           location: Maryland
           date_start: '2014-10-01'
           date_end: '2017-08-26'
           description: Conduct fundamental research in quantum information science.
         - title: Postdoctoral Fellow
           company: Joint Appointment at the Institute for Quantum Computing, University of Waterloo and the University of Guelph
-          company_url: ''
-          company_logo: university-of-waterloo-institute-for-quantum-computing-iqc-vector-logo
+          company_url: 'https://uwaterloo.ca/institute-for-quantum-computing/'
+          company_logo: Waterloo
           location: Ontario, Canada
           date_start: '2010-10-01'
           date_end: '2014-08-01'
