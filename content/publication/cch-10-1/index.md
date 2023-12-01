@@ -1,24 +1,23 @@
 ---
-title: 'One Gate Scheme to Rule Them All: Introducing a Complex Yet Reduced Instruction Set for Quantum Computing'
+title: 'Super-duper-activation of the Zero-error Quantum Capacity'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Jianxin Chen
-  - Dawei Ding
-  - Weiyuan Gong
-  - Cupjin Huang
-  - Qi Ye
+  - Toby Cubitt
+  - Aram Harrow 
+  - Graeme Smith
 
 # Author notes (optional)
 author_notes: []
 
-date: '2024-04-27T00:00:00Z'
+date: '2010-08-01T00:00:00Z'
 doi: []
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-04-27T00:00:00Z'
+publishDate: '2010-08-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -26,10 +25,10 @@ publishDate: '2024-04-27T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *ACM Conference on Architectural Support for Programming Languages and Operating Systems*
-publication_short: In *ASPLOS*
+publication: In *The 10th Asian Quantum Information Science Conference*
+publication_short: In *AQIS*
 
-abstract: The design and architecture of a quantum instruction set are paramount to the performance of a quantum computer. This work introduces a gate scheme for qubits with $XX+YY$ coupling that directly and efficiently realizes any two-qubit gate up to single-qubit gates. First, this scheme enables high-fidelity execution of quantum operations, especially when decoherence is the primary error source. Second, since the scheme spans the entire $\textbf{SU}(4)$ group of two-qubit gates, we can use it to attain the optimal two-qubit gate count for algorithm implementation. These two advantages in synergy give rise to a quantum Complex yet Reduced Instruction Set Computer (CRISC). Though the gate scheme is compact, it supports a comprehensive array of quantum operations. This may seem paradoxical but is realizable due to the fundamental differences between quantum and classical computer architectures. Using our gate scheme, we observe marked improvements across various applications, including generic $n$-qubit gate synthesis, quantum volume, and qubit routing. Furthermore, the proposed scheme also realizes a gate locally equivalent to the commonly used $\CNOT$ gate with a gate time of $\frac{\pi}{2g}$, where $g$ is the two-qubit coupling. The AshN scheme is also completely impervious to $ZZ$ error, the main coherent error in transversely coupled systems, as the control parameters implementing the gates can be easily adjusted to take the $ZZ$ component into account.
+abstract: []
 
 # Summary. An optional shortened abstract.
 summary: []
@@ -37,7 +36,7 @@ summary: []
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
@@ -65,15 +64,14 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - qisa
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
 {{% callout note %}}
