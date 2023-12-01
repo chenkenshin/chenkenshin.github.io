@@ -38,7 +38,7 @@ abstract: A quantum instruction set is where quantum hardware and software meet.
 summary: ""
 
 tags:
-- Source Themes
+- Quantum Instruction Set
 featured: true
 
 links:

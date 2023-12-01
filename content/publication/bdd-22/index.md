@@ -40,7 +40,7 @@ links:
 - name: URL
   url: https://link.aps.org/doi/10.1103/PhysRevLett.129.010502
 
-feature: true
+featured: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
