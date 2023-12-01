@@ -11,4 +11,7 @@ publishDate: '2023-12-01T00:07:31.058189Z'
 publication_types:
 - manuscript
 publication: '*Phys. Rev. X Quantum*'
+projects: 
+- architecture
+- rt-decoding
 ---

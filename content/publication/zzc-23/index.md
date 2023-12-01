@@ -54,4 +54,6 @@ featured: true
 links:
 - name: URL
   url: https://doi.org/10.1145/3626199
+projects: 
+- architecture
 ---
