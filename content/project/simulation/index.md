@@ -1,7 +1,6 @@
 ---
 title: Efficient Classical Simulation Framework
-summary:  We have significantly improved the performance of classical simulation of quantum circuits. At present, classical simulation serves as a crucial tool for benchmarking large quantum chips and influencing their design iterations. Our algorithm, tested across a range of random quantum circuits, has realized an acceleration surpassing 100,000 times the
-original simulation cost estimates. This significant advancement has been acknowledged in a publication in Nature Computational Science and further highlighted in a <font color="#00dddd">``News and Views''</font> article titled <font color="#00dddd">``Boosting Simulation of Quantum Computers''</font>. Our simulation technique has been widely embraced in both academic and industrial sectors.
+summary:  We have significantly improved the performance of classical simulation of quantum circuits. At present, classical simulation serves as a crucial tool for benchmarking large quantum chips and influencing their design iterations. Our algorithm, tested across a range of random quantum circuits, has realized an acceleration surpassing 100,000 times the original simulation cost estimates. This significant advancement has been acknowledged in a publication in Nature Computational Science and further highlighted in a <font color="#00dddd">``News and Views''</font> article titled <font color="#00dddd">``Boosting Simulation of Quantum Computers''</font>. Our simulation technique has been widely embraced in both academic and industrial sectors.
 tags:
   - Classical Simulation
 date: '2016-04-27T00:00:00Z'
