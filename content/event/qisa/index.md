@@ -1,7 +1,7 @@
 ---
-title: Quantum Instruction Set Design for Superconducting Processors
+title: 'Quantum Instruction Set Design for Superconducting Processors: A Computer Science Perspective'
 
-event: Hugo Blox Builder Conference
+event: Visiting Prof. Liqiang Lu's Group
 event_url: https://example.org
 
 location: Zhejiang University
@@ -12,17 +12,17 @@ address:
   postcode: '94305'
   country: United States
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: This presentation will explore the evolution and optimization of quantum instruction sets, focusing on achieving high-fidelity execution and streamlining quantum algorithm programming.
+abstract: 'The integration of quantum hardware and software is epitomized by the quantum instruction set, yet a tangible disconnect persists in translating theoretical quantum operations into practical instructions for algorithm deployment and their subsequent realization on actual quantum hardware. This presentation will explore the evolution and optimization of quantum instruction sets, focusing on achieving high-fidelity execution and streamlining quantum algorithm programming. We will specifically examine a range of effective strategies for executing single- and two-qubit operations, which promise to substantially elevate system performance. Additionally, we will highlight the extensive opportunities available for future advancements in the architecture of quantum instruction sets.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2023-11-15T13:00:00Z'
+date_end: '2023-11-15T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2023-11-15T00:00:00Z'
 
 authors: []
 tags: []
@@ -49,7 +49,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ""
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -57,17 +57,5 @@ slides: example
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-  - example
+  - qisa
 ---
-
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
-
-Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
