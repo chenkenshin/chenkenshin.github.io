@@ -29,13 +29,13 @@ publishDate: "2023-02-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Physical Review Letters, 1*(1)"
+publication: "Physical Review Letters, <bold>130</bold>, 070601"
 publication_short: "PRL"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: A quantum instruction set is where quantum hardware and software meet. We develop new characterization and compilation techniques for non-Clifford gates to accurately evaluate different quantum instruction set designs. We specifically apply them to our fluxonium processor that supports mainstream instruction iSWAP by calibrating and characterizing its square root SQiSW. We measure a gate fidelity of up to 99.72% with an average of 99.31% and realize Haar random two-qubit gates using SQiSW with an average fidelity of 96.38%. This is an average error reduction of 41% for the former and a 50% reduction for the latter compared to using iSWAP on the same processor. This shows designing the quantum instruction set consisting of SQiSW and single-qubit gates on such platforms leads to a performance boost at almost no cost.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: ""
 
 tags:
 - Source Themes
