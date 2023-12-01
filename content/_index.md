@@ -186,10 +186,12 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: Quantum Computer Architecture
+          tag: Quantum Computer Architecture
+        - name: Quantum Instruction Set
+          tag: Quantum Instruction Set
+        - name: Fault-tolerant Quantum Computing
+          tag: Fault-tolerant Quantum Computing
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
