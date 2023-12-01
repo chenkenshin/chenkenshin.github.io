@@ -1,6 +1,6 @@
 ---
 title: The First Prototype System for Fault-Tolerant Quantum Computing
-summary: We developed a prototype system, a trailblazer in supporting fault-tolerant quantum computing. Its design ingeniously addresses scalability, ensuring that control overhead does not increase with the number of qubits. \textcolor{blue}{Integrated with our modular decoding firmware, this system demonstrates unparalleled scalability potential in the realm of fault-tolerant quantum computing.} We have established and rigorously tested a comprehensive end-to-end system using our in-house fluxonium quantum chip. This work has been recognized and published in the {\em ACM Transactions on Quantum Computing}.
+summary: We developed a prototype system, a trailblazer in supporting fault-tolerant quantum computing. Its design ingeniously addresses scalability, ensuring that control overhead does not increase with the number of qubits. <font color="blue">Integrated with our modular decoding firmware, this system demonstrates unparalleled scalability potential in the realm of fault-tolerant quantum computing.</font> We have established and rigorously tested a comprehensive end-to-end system using our in-house fluxonium quantum chip. This work has been recognized and published in the ***ACM Transactions on Quantum Computing***.
 tags:
   - Quantum Computer Architecture
 date: '2016-04-27T00:00:00Z'
