@@ -73,7 +73,7 @@ skills:
       - name: Road Trip
         description: ''
         percent: 60
-        icon: fa-car
+        icon: car
         icon_pack: fas
       - name: Cats
         description: ''
