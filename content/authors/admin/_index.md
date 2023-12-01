@@ -56,9 +56,9 @@ skills:
         percent: 80
         icon: python
         icon_pack: fab
-      - name: Data Science
+      - name: Mathematica
         description: ''
-        percent: 100
+        percent: 80
         icon: chart-line
         icon_pack: fas
       - name: SQL
@@ -70,10 +70,10 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Road Trip
         description: ''
         percent: 60
-        icon: person-hiking
+        icon: fa-car
         icon_pack: fas
       - name: Cats
         description: ''
