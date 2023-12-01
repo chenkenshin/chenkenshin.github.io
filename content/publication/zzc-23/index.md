@@ -47,6 +47,7 @@ tags:
 - parallel decoding
 - quantum computer architecture
 - fault-tolerant quantum computing
+featured: true
 links:
 - name: URL
   url: https://doi.org/10.1145/3626199
