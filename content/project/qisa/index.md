@@ -1,6 +1,6 @@
 ---
 title: Quantum Instruction Set Design for Superconducting Processors
-summary:  The intersection of quantum hardware and software is epitomized in the quantum instruction set, a pivotal factor in system performance. We have been at the vanguard of designing and implementing quantum instruction sets that optimize system efficiency. Our PMW (<em>Phase-shifted MicroWave</em>) scheme has gained widespread adoption in the industry. Notably, our SQiSW (<em>Square Root of iSWAP</em>) scheme has been published in the prestigious Physical Review Letters and then adopted by Google. Furthermore, our recent AshN scheme has been accepted by ASPLOS24 and is currently being implemented by several leading hardware teams.
+summary:  The intersection of quantum hardware and software is epitomized in the quantum instruction set, a pivotal factor in system performance. We have been at the vanguard of designing and implementing quantum instruction sets that optimize system efficiency. Our <font color="#00dddd">PMW (<em>Phase-shifted MicroWave</em>) scheme</font> has gained widespread adoption in the industry. Notably, our <font color="#00dddd">SQiSW (<em>Square Root of iSWAP</em>) scheme</font> has been published in the prestigious Physical Review Letters and then adopted by Google. Furthermore, our <font color="#00dddd">recent AshN scheme </font> has been accepted by ASPLOS24 and is currently being implemented by several leading hardware teams.
 tags:
   - Quantum Instruction Set
   - Quantum Computer Architecture
