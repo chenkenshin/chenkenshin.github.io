@@ -63,7 +63,7 @@ skills:
         icon_pack: fas
       - name: Artificial Intelligence
         description: ''
-        percent: 60
+        percent: 70
         icon: brain
         icon_pack: fas
   - name: Hobbies
@@ -72,17 +72,17 @@ skills:
     items:
       - name: Road Trip
         description: ''
-        percent: 60
+        percent: 100
         icon: car
         icon_pack: fas
       - name: Cats
         description: ''
-        percent: 100
+        percent: 80
         icon: cat
         icon_pack: fas
       - name: Photography
         description: ''
-        percent: 80
+        percent: 70
         icon: camera-retro
         icon_pack: fas
 
