@@ -61,10 +61,10 @@ skills:
         percent: 80
         icon: chart-line
         icon_pack: fas
-      - name: SQL
+      - name: Artificial Intelligence
         description: ''
-        percent: 40
-        icon: database
+        percent: 60
+        icon: brain
         icon_pack: fas
   - name: Hobbies
     color: '#eeac02'
